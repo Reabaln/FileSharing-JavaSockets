@@ -23,7 +23,7 @@ public class client {
 	 static DataOutputStream out;
 	 static  BufferedReader in;
 	 static Socket clientSocket;
-     static FileInputStream fStream;
+    	 static FileInputStream fStream;
 	 private static  PrintWriter ctrlWriter;
 
 	

@@ -23,5 +23,5 @@ Following list of commands that client can perform:
 ##### Remove file 
 	ava -cp name.jar client rm </path/existing_filename/on/server>
 
-##### Shoutdown server
+##### Shoutdown client
 	ava -cp name.jar client shutdown

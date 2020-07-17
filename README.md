@@ -4,9 +4,9 @@ Simple file transfer using Java Sockets
 
 ### Running server
 	java -cp name.jar server start <portnumber>
-###Client commands
-
-#####Upload file
+### Client commands
+Following list of commands that client can perform:
+##### Upload file
 	java -cp name.jar client upload <path_on_client> </path/filename/on/server>
 ##### Download file
 	java -cp name.jar client download </path/existing_filename/on/server> <path_on_client>
@@ -23,5 +23,5 @@ Simple file transfer using Java Sockets
 ##### Remove file 
 	ava -cp name.jar client rm </path/existing_filename/on/server>
 
-#####Shoutdown server
+##### Shoutdown server
 	ava -cp name.jar client shutdown
